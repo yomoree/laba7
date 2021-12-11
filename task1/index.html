@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="shortcut icon" href="https://upload.wikimedia.org/wikipedia/commons/5/54/Cyberpunk_2077_favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Tokyo Ghouls!</title>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+
+</head>
+<body>
+    <header class="head">
+        <nav>
+            <ul class="nav">
+                <li class="nav-item1">
+                    <a class="fa fa-home" href="index.html"></a>
+                    <a class="nav-link" href="index.html">Main</a>
+                </li>
+                <li class="nav-item2">
+                    <a class="fa fa-download" href="#"></a>
+                    <a class="nav-link" href="#">Download</a>
+                <li class="nav-item3"></div>
+                    <a class="fa fa-star" href="#"></a>
+                    <a class="nav-link" href="#">Favorites</a>
+                </li>
+                <li class="nav-item4">
+                    <a class="fa fa-info" href="#"></a>
+                    <a class="nav-link" href="#">Reference</a>
+              </ul>
+        </nav>
+    </header>
+    <div class='name' id='glitch'><p class='center__text glitch is-glitching' data-text="Hover me!">Tokyo ghoul</p></div>
+  
+    <main id='main' class='main'>
+        <section class='section1'>
+            <div class='d1' id='imgl'><img src='https://cdna.artstation.com/p/assets/images/images/018/743/268/large/xk-art-casualkanekiken.jpg?1560531323&dl=1' class='img1' alt='photo1' title='Ken Kaneki' id='img1'></div>
+            <div class='d2' id='imgl'><img src='https://i.mycdn.me/image?id=906379053125&plc=API&tkn=*I0_bT3OqEMgbTvG6RrYvc2YVKDA&fn=w_480' class='img1' alt='photo2' title='Juzo Suzuya' id='img1' ></div>
+            <div class='d3' id='imgl'><img src='https://cs4.pikabu.ru/post_img/2016/06/29/6/1467193229173247054.jpg' class='img1' alt='photo3'  title='Car' id='img1'></div>
+            <div class='d4' id='imgl'><img src='https://cs8.pikabu.ru/post_img/2016/06/29/6/1467193235132833365.jpg' class='img1' alt='ph4oto'  title='fon' id='img1'></div>
+        </section> 
+        <section class='section2'>
+        <div class='d5'><img src='https://i.mycdn.me/i?r=AyH4iRPQ2q0otWIFepML2LxRPycJIGJNpI5QhSKcnGr0Xw' class='img1' alt='photo5' title='Haise Sasake' id='img1'></div>
+        <div class='d6'><img src='https://i.pinimg.com/originals/99/5c/3d/995c3d77b8d31b9a7ea4f948985de998.jpg' class='img1' alt='photo6' title='Rize Kashimiro' id='img1'></div>
+        <div class='d7'><img src='https://slovnet.ru/wp-content/uploads/2019/01/2-52.jpg' class='img1' alt='photo7' title='Touka' id='img1'></div>
+        <div class='d10'><img src='https://besthqwallpapers.com/Uploads/12-9-2018/65435/thumb2-eto-yoshimura-green-hair-aogiri-tree-leader-tokyo-ghoul-yoshimura-eto.jpg' class='img1' alt='photo10' title='Eto' id='img1'></div>
+        <div class='d9'><img src='https://64.media.tumblr.com/8fe2c9b5f1324b89e987b72681720f62/tumblr_inline_othgqqVXmV1t4ieky_540.png' class='img1' alt='photo9' title='Noro' id='img1'></div>
+        <div class='d10'><img src='https://animesher.com/orig/1/143/1436/14361/animesher.com_tokyo-ghoul-tatara-art-1436172.jpg' class='img1' alt='photo10' title='Tatara and Ayato' id='img1'></div>
+        <div class='d8'><img src='https://lh3.googleusercontent.com/proxy/giYrCCYhFsrykMv5cr09JZlrKdnW8u-kLmEyBeUthiMU0KbZoRa_Nl1OpKJQ2IY8sgE8J6ILFOn7-tcW1BEDjaY_CM9G5zGxkxCXJLW68rz0DZJ4LhBpLWaNyc4pVH-glVgSGi4bFovLQtZi_rYBJi8nysuc-38Ghp-0WajE2buBD0dw0yCFxxNVGQ' class='img1' alt='photo8' title='Tsukiyama Shu' id='img1'></div>
+        </section class='section2'>
+
+        <div class="popup" id='popup'>
+            <div class="close">[X]</div>
+            <img src="" alt="">
+        </div>
+        
+    </main>
+    <div ID = "toTop" ></div >
+    <footer>
+        <div class='contacts'><a id='contacts'>Contacts</a>
+        </div>
+        <div class='nets'>
+        <a href='https://vk.com/' class='vk'><i class="fa fa-vk"></i></a>
+        <a href='https://www.instagram.com/?hl=ru' class='inst'><i class="fa fa-instagram"></i></a>
+        <a href='https://ru-ru.facebook.com/' class='fb'><i class="fa fa-facebook"></i></a>
+        </div>
+    </footer>
+
+    <script>
+ 
+
+ $(function() {
+  
+ $(window).scroll(function() {
+  
+ if($(this).scrollTop() != 0) {
+  
+ $('#toTop').fadeIn();
+  
+ } else {
+  
+ $('#toTop').fadeOut();
+  
+ }
+  
+ });
+  
+ $('#toTop').click(function() {
+  
+ $('body,html').animate({scrollTop:0},800);
+  
+ });
+  
+ });
+ 
+
+ $('.main img').click(function() {
+     
+    let src = $(this).attr('src');
+    $('.popup img').attr('src',src);
+    $('.popup').fadeIn();   
+});
+$('.close').click(function() {
+    $('.popup').fadeOut();
+});
+ </script>  
+</body>
+</html>
